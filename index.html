@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pixel Art Maker!</title>
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- the nave bar of the page -->
+    <div>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Pixel Art Maker</a>
+    </div>
+  </div>
+</nav>
+        
+    </div>
+     <!-- this is marquee behavior -->
+        <marquee behavior="scroll" scrolldelay='60' direction="left" style="height:200px; font-size:150px; background-color:#fff; position:fixed: bottom; padding:60px;" >
+						<h1 style ="color: blue">WELCOME TO ALCwithGOOGLE 3.0</h1>
+			</marquee>
+
+    <h1>Lab: Pixel Art Maker</h1>
+
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="input_height" name="height" min="1" value="1">
+        Grid Width:
+        <input type="number" id="input_width" name="width" min="1" value="1">
+        <input type="submit" id="inputsubmit">
+    </form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas</h2>
+    <table id="pixel_canvas"></table>
+    <hr>
+<footer id="ln-footer">
+      
+      <strong> Website created by:</strong> <strong>SHADRACH-</strong>
+						<strong> POWERED BY|</strong> <strong>Google</strong>  &copy; Copyright 2018
+</footer>
+
+    <script src="designs.js"></script>
+</body>
+</html>
