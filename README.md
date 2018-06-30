@@ -4,4 +4,4 @@ This repository is the starter code for my specific Udacity project. It creates 
 
 click the link bellow 
 
-https://shadrachd1.github.io/shadrachpixelartmaker
+https://shadrachd1.github.io/pixelartmaker
